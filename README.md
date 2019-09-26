@@ -10,7 +10,7 @@
 
 - Clone the `Starcounter.Techempower` repository.
 - Create `artifacts` folder on the same level as `Starcounter.Techempower` folder.
-- Download latest available Starcounter 3.0 from [starcounter.io](https://starcounter.io/download/) and unzip it into the `artifacts` folder.
+- Download the latest available Starcounter 3.0 from [starcounter.io](https://starcounter.io/download/) and unzip it into the `artifacts` folder.
 - Build `Starcounter.Techempower` with `dotnet` CLI or with Visual Studio 2019.
 
 The end folder structure should look like this:
