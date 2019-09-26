@@ -1,0 +1,13 @@
+project.lock.json
+*.xproj.user
+*.csproj.user
+*.VC.db
+.vs
+.vscode/
+.config
+.database
+*.log
+*.nupkg
+bin/
+obj/
+artifacts
