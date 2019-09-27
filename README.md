@@ -62,6 +62,8 @@ Note that the number of statements per request is twice the number of updates si
 
 ## Setup official `tfb` Techempower docker runner
 
+*Note: this instructions are applicable to [`TechEmpower/FrameworkBenchmarks/commit/a05701bb166ff16ec4d4e154ef4cd67442cb34ba`](https://github.com/TechEmpower/FrameworkBenchmarks/commit/a05701bb166ff16ec4d4e154ef4cd67442cb34ba) and might not work with further updated in the `TechEmpower/FrameworkBenchmarks` repository.*
+
 Some resources:
 
 - [Source Code: `TechEmpower/FrameworkBenchmarks`](https://github.com/TechEmpower/FrameworkBenchmarks).
@@ -99,7 +101,7 @@ Add the following entry to the `/FrameworkBenchmarks/frameworks/CSharp/aspnetcor
 
 ### 2. Update `test_types.py`
 
-Add the following `elif` statement into the `get_current_world_table` function of the `/FrameworkBenchmarks/toolset/benchmark/test_types.py` file to properly verify `update` benchmark with `none` database.
+Add the following `elif` statement into the `get_current_world_table` function of the `/FrameworkBenchmarks/toolset/benchmark/test_types/framework_test_type.py` file to properly verify `update` benchmark with `none` database.
 
 ```
 elif database_name == "none":
@@ -113,6 +115,8 @@ elif database_name == "none":
 			color=Fore.RED)
 		log(tb)
 ```
+
+Add `import urllib2` at the top of the file.
 
 *Note: this will break all other update benchmarks with `none` database.*
 
@@ -128,7 +132,6 @@ Copy the `Dockerfile` file from this repository to `/FrameworkBenchmarks/framewo
 Update the `aspcore-starcounter.dockerfile` file, `# Copy source files` section with the following:
 
 ```
-WORKDIR /source
 COPY ./Starcounter.Techempower/NuGet.Config ./app/NuGet.Config
 COPY ./Starcounter.Techempower/src/Starcounter.Techempower.csproj ./app/Starcounter.Techempower.csproj
 COPY ./Starcounter.Techempower/src/DefaultRandom.cs ./app/DefaultRandom.cs
