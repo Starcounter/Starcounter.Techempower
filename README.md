@@ -167,13 +167,13 @@ sudo ./tfb --mode benchmark --test aspcore-ado-pg aspcore-ado-pg-up aspcore-star
 
 ## Results
 
-Hardware:
+**Hardware**:
 
 - OS: Ubuntu 18.04 under Hyper-V.
 - CPU: 16 CPU Virtual Cores of Threadripper 1950x @ 4.0 GHz.
 - RAM: 8 GB DDR4-3000 ECC CL18.
 - SSD: Samsung 960 Pro 512 GB.
 
-*Runs*:
+**Runs**:
 
 - [`Starcounter.3.0.0-alpha-20190930-results.json`](results/Starcounter.3.0.0-alpha-20190930-results.json).
