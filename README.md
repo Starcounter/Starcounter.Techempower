@@ -25,6 +25,8 @@ The end folder structure should look like this:
 |------ Other source files.
 ```
 
+*Note: depending on your Operating System you might need to install some extra Starcounter dependencies specified on the download page.*
+
 ## Benchmark handlers
 
 ### `db` - Single Query
@@ -123,13 +125,10 @@ also copy the [`NuGet.Config`](NuGet.Config) file from the root folder.
 
 Copy the `Dockerfile` file from this repository to `/FrameworkBenchmarks/frameworks/CSharp/aspnetcore/aspcore-starcounter.dockerfile`.
 
-Copy required Starcounter NuGet packages to `/FrameworkBenchmarks/frameworks/CSharp/aspnetcore/artifacts` folder.
-
-Update the `aspcore-starcounter.dockerfile` file, `WORKDIR /source` section with the following:
+Update the `aspcore-starcounter.dockerfile` file, `# Copy source files` section with the following:
 
 ```
 WORKDIR /source
-COPY ./artifacts ./artifacts
 COPY ./Starcounter.Techempower/NuGet.Config ./app/NuGet.Config
 COPY ./Starcounter.Techempower/src/Starcounter.Techempower.csproj ./app/Starcounter.Techempower.csproj
 COPY ./Starcounter.Techempower/src/DefaultRandom.cs ./app/DefaultRandom.cs
