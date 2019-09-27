@@ -175,3 +175,5 @@ Hardware:
 - SSD: Samsung 960 Pro 512 GB.
 
 *Runs*:
+
+- [`Starcounter.3.0.0-alpha-20190930-results.json`](results/Starcounter.3.0.0-alpha-20190930-results.json).

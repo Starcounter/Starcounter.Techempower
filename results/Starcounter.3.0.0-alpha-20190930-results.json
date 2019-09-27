@@ -1,0 +1,284 @@
+{
+  "rawData": {
+    "fortune": {
+      "aspcore-starcounter": [
+        {
+          "latencyAvg": "540.55us", 
+          "latencyMax": "14.73ms", 
+          "latencyStdev": "0.98ms", 
+          "totalRequests": 863645, 
+          "startTime": 1569609348, 
+          "endTime": 1569609363
+        }, 
+        {
+          "latencyAvg": "679.02us", 
+          "latencyMax": "16.95ms", 
+          "latencyStdev": "1.07ms", 
+          "totalRequests": 1203841, 
+          "startTime": 1569609365, 
+          "endTime": 1569609380
+        }, 
+        {
+          "latencyAvg": "1.01ms", 
+          "latencyMax": "23.69ms", 
+          "latencyStdev": "1.29ms", 
+          "totalRequests": 1387586, 
+          "startTime": 1569609382, 
+          "endTime": 1569609397
+        }, 
+        {
+          "latencyAvg": "1.58ms", 
+          "latencyMax": "20.40ms", 
+          "latencyStdev": "1.54ms", 
+          "totalRequests": 1476471, 
+          "startTime": 1569609399, 
+          "endTime": 1569609414
+        }, 
+        {
+          "latencyAvg": "2.81ms", 
+          "latencyMax": "30.89ms", 
+          "latencyStdev": "1.94ms", 
+          "totalRequests": 1429796, 
+          "startTime": 1569609416, 
+          "endTime": 1569609431
+        }, 
+        {
+          "latencyAvg": "6.02ms", 
+          "latencyMax": "30.34ms", 
+          "latencyStdev": "3.16ms", 
+          "totalRequests": 1266532, 
+          "startTime": 1569609433, 
+          "endTime": 1569609448
+        }
+      ]
+    }, 
+    "plaintext": {}, 
+    "slocCounts": {
+      "asp.net core": 4233
+    }, 
+    "db": {
+      "aspcore-starcounter": [
+        {
+          "latencyAvg": "445.12us", 
+          "latencyMax": "18.68ms", 
+          "latencyStdev": "0.92ms", 
+          "totalRequests": 1119860, 
+          "startTime": 1569608979, 
+          "endTime": 1569608994
+        }, 
+        {
+          "latencyAvg": "538.90us", 
+          "latencyMax": "18.88ms", 
+          "latencyStdev": "1.04ms", 
+          "totalRequests": 1703041, 
+          "startTime": 1569608996, 
+          "endTime": 1569609011
+        }, 
+        {
+          "latencyAvg": "726.43us", 
+          "latencyMax": "21.42ms", 
+          "latencyStdev": "1.16ms", 
+          "totalRequests": 2149235, 
+          "startTime": 1569609013, 
+          "endTime": 1569609028
+        }, 
+        {
+          "latencyAvg": "1.07ms", 
+          "latencyMax": "29.19ms", 
+          "latencyStdev": "1.33ms", 
+          "totalRequests": 2475514, 
+          "startTime": 1569609030, 
+          "endTime": 1569609045
+        }, 
+        {
+          "latencyAvg": "1.82ms", 
+          "latencyMax": "28.26ms", 
+          "latencyStdev": "1.62ms", 
+          "totalRequests": 2431535, 
+          "startTime": 1569609047, 
+          "endTime": 1569609062
+        }, 
+        {
+          "latencyAvg": "3.37ms", 
+          "latencyMax": "50.57ms", 
+          "latencyStdev": "2.17ms", 
+          "totalRequests": 2394635, 
+          "startTime": 1569609064, 
+          "endTime": 1569609079
+        }
+      ]
+    }, 
+    "update": {
+      "aspcore-starcounter": [
+        {
+          "latencyAvg": "38.90ms", 
+          "latencyMax": "238.88ms", 
+          "latencyStdev": "22.37ms", 
+          "totalRequests": 203376, 
+          "startTime": 1569609230, 
+          "endTime": 1569609245
+        }, 
+        {
+          "latencyAvg": "40.43ms", 
+          "latencyMax": "261.83ms", 
+          "latencyStdev": "24.13ms", 
+          "totalRequests": 196157, 
+          "startTime": 1569609247, 
+          "endTime": 1569609263
+        }, 
+        {
+          "latencyAvg": "43.21ms", 
+          "latencyMax": "319.75ms", 
+          "latencyStdev": "26.35ms", 
+          "totalRequests": 183657, 
+          "startTime": 1569609265, 
+          "endTime": 1569609280
+        }, 
+        {
+          "latencyAvg": "47.21ms", 
+          "latencyMax": "341.30ms", 
+          "latencyStdev": "28.94ms", 
+          "totalRequests": 168148, 
+          "startTime": 1569609282, 
+          "endTime": 1569609297
+        }, 
+        {
+          "latencyAvg": "53.23ms", 
+          "latencyMax": "392.95ms", 
+          "latencyStdev": "32.23ms", 
+          "totalRequests": 149126, 
+          "startTime": 1569609299, 
+          "endTime": 1569609314
+        }
+      ]
+    }, 
+    "json": {}, 
+    "commitCounts": {
+      "asp.net core": 0
+    }, 
+    "query": {
+      "aspcore-starcounter": [
+        {
+          "latencyAvg": "3.81ms", 
+          "latencyMax": "33.84ms", 
+          "latencyStdev": "2.28ms", 
+          "totalRequests": 2078844, 
+          "startTime": 1569609113, 
+          "endTime": 1569609128
+        }, 
+        {
+          "latencyAvg": "6.40ms", 
+          "latencyMax": "45.40ms", 
+          "latencyStdev": "3.48ms", 
+          "totalRequests": 1218491, 
+          "startTime": 1569609130, 
+          "endTime": 1569609145
+        }, 
+        {
+          "latencyAvg": "9.81ms", 
+          "latencyMax": "41.06ms", 
+          "latencyStdev": "4.64ms", 
+          "totalRequests": 783548, 
+          "startTime": 1569609147, 
+          "endTime": 1569609162
+        }, 
+        {
+          "latencyAvg": "13.03ms", 
+          "latencyMax": "63.76ms", 
+          "latencyStdev": "5.27ms", 
+          "totalRequests": 590280, 
+          "startTime": 1569609164, 
+          "endTime": 1569609180
+        }, 
+        {
+          "latencyAvg": "16.49ms", 
+          "latencyMax": "71.61ms", 
+          "latencyStdev": "5.19ms", 
+          "totalRequests": 466543, 
+          "startTime": 1569609182, 
+          "endTime": 1569609197
+        }
+      ]
+    }, 
+    "cached_query": {}
+  }, 
+  "environmentDescription": "(unspecified, hostname = bc82290913d3)", 
+  "git": {
+    "commitId": "a05701bb166ff16ec4d4e154ef4cd67442cb34ba", 
+    "repositoryUrl": "https://github.com/TechEmpower/FrameworkBenchmarks", 
+    "branchName": "master"
+  }, 
+  "cachedQueryIntervals": [
+    1, 
+    10, 
+    20, 
+    50, 
+    100
+  ], 
+  "uuid": "53f2adf4-9b07-40b2-accc-c4ed2c172a4c", 
+  "succeeded": {
+    "fortune": [
+      "aspcore-starcounter"
+    ], 
+    "plaintext": [], 
+    "db": [
+      "aspcore-starcounter"
+    ], 
+    "update": [
+      "aspcore-starcounter"
+    ], 
+    "json": [], 
+    "query": [
+      "aspcore-starcounter"
+    ], 
+    "cached_query": []
+  }, 
+  "failed": {
+    "fortune": [], 
+    "plaintext": [], 
+    "db": [], 
+    "update": [], 
+    "json": [], 
+    "query": [], 
+    "cached_query": []
+  }, 
+  "verify": {
+    "aspcore-starcounter": {
+      "query": "pass", 
+      "db": "pass", 
+      "update": "pass", 
+      "fortune": "pass"
+    }
+  }, 
+  "duration": 15, 
+  "frameworks": [
+    "aspcore-starcounter"
+  ], 
+  "pipelineConcurrencyLevels": [
+    256, 
+    1024, 
+    4096, 
+    16384
+  ], 
+  "completionTime": 1569609454116, 
+  "concurrencyLevels": [
+    16, 
+    32, 
+    64, 
+    128, 
+    256, 
+    512
+  ], 
+  "startTime": 1569608885853, 
+  "queryIntervals": [
+    1, 
+    5, 
+    10, 
+    15, 
+    20
+  ], 
+  "completed": {
+    "aspcore-starcounter": "20190927183730"
+  }, 
+  "name": "(unspecified, datetime = 2019-09-27 18:28:05)"
+}
