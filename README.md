@@ -1,6 +1,6 @@
 # Starcounter.Techempower
 
-[Techempower](https://www.techempower.com/benchmarks/) benchmarks using Starcounter.
+[Techempower](https://www.techempower.com/benchmarks/) benchmark using Starcounter.
 
 ## Setup
 
